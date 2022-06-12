@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CopyclipboardComponent } from './component/copyclipboard/copyclipboard.component';
+import { CopytoClipboardHTMLTagComponent } from './component/copyto-clipboard-htmltag/copyto-clipboard-htmltag.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CopyclipboardComponent,
+    CopytoClipboardHTMLTagComponent
   ],
   imports: [
     BrowserModule,
